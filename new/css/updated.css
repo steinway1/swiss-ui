@@ -1,13 +1,9 @@
 button,
 input[type="submit"],
 input[type="reset"] {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
   cursor: pointer;
   outline: inherit;
+  border: none;
 }
 
 * {
@@ -268,7 +264,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
+  margin-top: 16px;
   margin-bottom: 32px;
   padding: 20px 0px 32px;
   -webkit-box-pack: justify;
@@ -496,8 +492,8 @@ body {
 }
 
 .sw-results {
-  padding-top: 46px;
-  padding-bottom: 46px;
+  padding-top: 86px;
+  padding-bottom: 86px;
 }
 
 .page-filters {
@@ -719,6 +715,11 @@ body {
 @media screen and (max-width: 479px) {
   .sw-card-name {
     font-size: 13px;
+  }
+  
+  .sw-results {
+    padding-top: 42px;
+    padding-bottom: 42px;
   }
 
   .sw-card {
@@ -1513,6 +1514,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   font-size: 13px;
+  background: none;
   cursor: pointer;
   -webkit-transition: all 200ms cubic-bezier(.39, .575, .565, 1);
   transition: all 200ms cubic-bezier(.39, .575, .565, 1);

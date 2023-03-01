@@ -732,7 +732,7 @@ a {
   -webkit-line-clamp: 1;
 }
 
-.popular-item__bottom {
+/* .popular-item__bottom {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -751,7 +751,7 @@ a {
   border-top: 1px solid #dde2e4;
   background-color: #fafafa;
   background-image: none;
-}
+} */
 
 
 .popular-msrp {
